@@ -1,0 +1,14 @@
+server:
+  port: 8089
+
+
+spring:
+  application:
+    name: football-configuration-services
+  cloud:
+    config:
+      server:
+        git:
+          username: abdulazizalaman404@gmail.com
+          password: Hap201py@
+          uri: https://github.com/English-Premier-League/english-football-configuration.git

@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+ADD football-configuration-services.jar football-configuration-services.jar
+ENTRYPOINT ["java ","-jar","football-configuration-services.jar"]
+EXPOSE 8089
